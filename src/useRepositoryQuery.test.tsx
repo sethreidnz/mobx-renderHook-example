@@ -4,7 +4,11 @@ import { render, screen } from "@testing-library/react";
 import { observer } from "mobx-react";
 import { ReactNode } from "react";
 
+<<<<<<< Updated upstream
 describe("useMobxExampleHook()", () => {
+=======
+describe("useRepositoryQuery()", () => {
+>>>>>>> Stashed changes
   test("given successful call to fetchFn should return success", async () => {
     // arrange
     const getFn = vi.fn().mockReturnValue(undefined);
