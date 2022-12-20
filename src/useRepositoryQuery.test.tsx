@@ -1,6 +1,5 @@
 import { QueryStatus, useRepositoryQuery } from "./useRepositoryQuery";
-import { renderHook } from "@testing-library/react-hooks";
-import { render, screen } from "@testing-library/react";
+import { render, screen, renderHook } from "@testing-library/react";
 import { observer } from "mobx-react";
 import { ReactNode } from "react";
 
